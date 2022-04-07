@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="184" viewBox="0 0 180 184">
+  <g id="Grupo_19" data-name="Grupo 19" transform="translate(-403 -3604)">
+    <rect id="Retângulo_47" data-name="Retângulo 47" width="180" height="184" transform="translate(403 3604)" fill="#cecece"/>
+    <g id="Grupo_15" data-name="Grupo 15" transform="translate(-89 -308.369)">
+      <g id="Grupo_13" data-name="Grupo 13" transform="translate(83 24)">
+        <g id="Elipse_2" data-name="Elipse 2" transform="translate(433 3910)" fill="none" stroke="#000" stroke-width="7">
+          <circle cx="66" cy="66" r="66" stroke="none"/>
+          <circle cx="66" cy="66" r="62.5" fill="none"/>
+        </g>
+        <g id="Elipse_3" data-name="Elipse 3" transform="translate(464 3910)" fill="none" stroke="#000" stroke-width="7">
+          <ellipse cx="35" cy="66" rx="35" ry="66" stroke="none"/>
+          <ellipse cx="35" cy="66" rx="31.5" ry="62.5" fill="none"/>
+        </g>
+        <line id="Linha_32" data-name="Linha 32" y1="128" transform="translate(499.5 3912.5)" fill="none" stroke="#000" stroke-width="7"/>
+        <line id="Linha_33" data-name="Linha 33" x2="128" transform="translate(435.5 3975.5)" fill="none" stroke="#000" stroke-width="7"/>
+        <line id="Linha_34" data-name="Linha 34" x2="109" transform="translate(444.5 3944.5)" fill="none" stroke="#000" stroke-width="7"/>
+        <line id="Linha_35" data-name="Linha 35" x2="109" transform="translate(444.5 4006.5)" fill="none" stroke="#000" stroke-width="7"/>
+        <path id="Caminho_8" data-name="Caminho 8" d="M-1660,6187.354l-42.778-32.85,4.831,53.719,10.862-12.7,13.747,24.214,10.154-6.561-13.435-23.433Z" transform="translate(2225 -2169)" stroke="#cecece" stroke-width="4"/>
+      </g>
+    </g>
+  </g>
+</svg>

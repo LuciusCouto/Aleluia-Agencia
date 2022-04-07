@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Nanum;
+    src: url(fonte/NanumGothicCoding-Regular.ttf);
+}
+
+:root {
+    --fonteSlide: 'Nanum', monospace;
+}
+
+.slide-container {
+    margin-top: 5vw;
+}
+
+.slide {
+    overflow: hidden;
+    display: flex;
+    width: 80vw;
+    height: 30vw;
+    margin: auto;
+}
+
+.images > img{
+    width: 30vw;
+    height: 30vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    --webkit-tap-highlight-color: rgba(240, 248, 255, 0);
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none;  
+}
+
+.s1 {
+    transition: all 0.4s;
+}
+
+.btn {
+    display: none;
+}
+
+#prox {    
+    background-color: rgba(83, 83, 83, 0.596);
+    -webkit-tap-highlight-color: rgba(240, 248, 255, 0);
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none;  
+    position: absolute;
+    font-size: 3vw;
+    font-family: var(--fonteSlide);
+    margin-left: 90vw;
+    margin-top: 14%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    padding-top: 1vw;
+    padding-bottom:1vw;
+    padding-left: 1.8vw;
+    padding-right: 1.8vw;
+    border-radius: 100%;
+    transition: all 0.4s;
+}
+
+#prev {
+    background-color: rgba(83, 83, 83, 0.596);
+    -webkit-tap-highlight-color: rgba(240, 248, 255, 0);
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none;  
+    position: absolute;
+    font-size: 3vw;
+    font-family: var(--fonteSlide);
+    margin-left: 4vw;
+    margin-top: 14%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    padding-top: 1vw;
+    padding-bottom:1vw;
+    padding-left: 1.8vw;
+    padding-right: 1.8vw;
+    border-radius: 100%;
+    transition: all 0.4s;
+}
+
+#prox:hover {
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+#prev:hover {
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+.bubble {
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+}
+
+.bub {
+    background-color: rgb(194, 194, 194);
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 100%;
+    margin: 0.3vw;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.bub:hover {
+    background-color: gray;
+}
+
+.bubble1 {
+    background-color: gray;
+}

@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Alata;
+    src: url(fonte/Alata-Regular.ttf);
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: var(--fontePadrão);
+    scrollbar-width: 0.8vw;
+}
+
+*::-webkit-scrollbar {
+    width: 0.8vw;
+    height: 0.8vw;
+}
+
+*::-webkit-scrollbar-track {
+    background: white;
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 1.5vw;
+    border: 0.2vw solid white;
+}
+
+:root { 
+    --corPrincipal: #9609DB;
+    --corLinkMenu: #000000;
+
+    --fontePadrão: 'Alata', sans-serif;
+} /*Váriaveis*/
+
+body, ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    transition: all 0.25s ease-in-out;
+}
+
+#Quem_Somos {
+    background-image: url(imagens/Background/Background-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-left: 8vw; 
+    padding-right: 8vw; 
+    padding-top: 10vw; ; 
+    padding-bottom: 10vw;
+} /*Estilo do corpo*/
+
+#Quem_Somos2 {
+    margin-top: 4vw;
+    padding: 10px;
+    background-image: url(imagens/Background/Background-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    display: flex;
+}
+
+.Quem_Somos2 {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    padding-left: 20vw;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Alata', sans-serif;
+}
+
+div.video {
+    top: 2.8vw;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    width: 35vw;
+    height: 25vw;
+    left: 10vw;
+}
+
+.quem-somos-ola {
+    color: white;
+    font-size: 4.5vw;
+}
+
+.quem-somos {
+    margin-top: 7vw;
+    margin-left: 13vw;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Alata', sans-serif;
+    height: 25vw;
+}
+
+#Nossa_Equipe {
+    padding-bottom: 2vw;
+    margin-top: 4vw;
+    background-color: #E6E6E6;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    font-size: 1.5vw;
+}
+
+#Nossa_Equipe > h1 {
+    padding-top: 2vw;
+    text-align: center;
+    font-size: 4vw;   
+}
+
+#Nossa_Equipe > span > img {
+    width: 25vw;
+    height: 25vw;
+}
+
+#Nossa_Equipe > .Wanderson {
+    display: flex;
+    margin-top: 5vw;
+    margin-left: 12vw;
+}
+
+#Nossa_Equipe > .Lucius {
+    display: flex;
+    margin-top: 5vw;
+    margin-left: 12vw;
+}
+
+#Nossa_Equipe > .Wanderson > p {
+    margin-top: 8vw;
+    margin-left: 4vw;
+    bottom: 0;
+}
+
+#Nossa_Equipe > .Lucius > p {
+    margin-top: 9.3vw;
+    margin-left: 4vw;
+}
+
+#Nossa_Equipe > .Nadson {
+    display: flex;
+    margin-top: 5vw;
+    margin-left: 46vw;
+}
+
+#Nossa_Equipe > .Railana {
+    display: flex;
+    margin-top: 5vw;
+    margin-left: 46vw;
+}
+
+#Nossa_Equipe > .Nadson > p {
+    margin-top: 8vw;
+    margin-right: 4vw;
+}
+
+#Nossa_Equipe > .Railana > p {
+    margin-top: 5vw;
+    margin-right: 4vw;
+}
+
+#Serviços {
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    margin-top: 4vw;
+    font-size: 1.5vw;
+}
+
+#Serviços > h1 {
+    padding-top: 2vw;
+    margin-left: 18.6vw;
+    text-align: left;
+    font-size: 4vw;  
+    font-weight: normal; 
+}
+
+#Serviços > h2 {
+    margin-left: 18.6vw;
+    text-align: left;  
+    font-weight: normal;
+}
+
+#Serviços > h6 {
+    margin-top: -2vw;
+    margin-left: 18.6vw;
+    text-align: left;  
+    font-weight: normal;
+}
+
+#Serviços > div > h6 {  
+    font-weight: normal;
+}
+
+
+#Serviços > .com {
+    display: flex;
+    margin-top: 5vw;
+}
+
+#Serviços > .com > p {
+    margin-top: 3vw;
+    margin-left: 5vw;
+}
+
+#Serviços >.com > img {
+    margin-left: 18.6vw;
+}
+
+@media (max-width: 1300px) {
+
+    .quem-somos-ola {
+        margin-top: 6vw;
+        font-size: 5vw;
+        height: 20vw;
+    }
+
+    .quem-somos {
+        font-size: 2vw;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .quem-somos-ola {
+        color: white;
+        font-size: 5.5vw;
+    }
+    
+    .quem-somos {
+        margin-top: 1vw;
+        margin-left: 13vw;
+        color: white;
+        font-size: 2.5vw;
+        font-family: 'alata', sans-serif;
+    }
+}
+
+@media (max-width: 870px) {
+    #Nossa_Equipe > .Wanderson {
+        margin-left: 20vw;
+        display: block;
+    }
+    
+    #Nossa_Equipe > .Lucius {
+        margin-top: 40vw;
+        margin-left: 20vw;
+        display: block;
+    }
+    
+    #Nossa_Equipe > .Wanderson > p {
+        margin-top: 1vw;
+        font-size: 3vw;
+        margin-left: 12vw;
+
+    }
+    
+    #Nossa_Equipe > .Lucius > p {
+        margin-top: 1vw;
+        font-size: 3vw;
+        margin-left: 12vw;
+    }
+    
+    #Nossa_Equipe > .Nadson {
+        margin-top: 10vw;
+        margin-left: 20vw;
+    }
+    
+    #Nossa_Equipe > .Railana {
+        margin-top: 10vw;
+        margin-left: 20vw;
+        padding-bottom: 47vw;
+    }
+    
+    #Nossa_Equipe > .Nadson > p {
+        margin-top: 64vw;
+        margin-left: 12vw;
+        font-size: 3vw;
+        position: absolute;
+    }
+    
+    #Nossa_Equipe > .Railana > p {
+        margin-top: 64vw;
+        margin-left: 12vw;
+        font-size: 3vw;
+        position: absolute;
+    }
+
+    #Nossa_Equipe > span > img {
+        width: 60vw;
+        height: 60vw;
+    }
+}
