@@ -78,7 +78,6 @@ header {
     border-width: 0.19vw; 
     background-color: white; 
     border-bottom-style: solid; 
-    padding: 1.53vw;
     align-items: center;
     justify-content: space-between;
 } /*header estilo*/
@@ -86,11 +85,13 @@ header {
 
 
 .marca_aleluia_agencia {
-    padding: 0;
     width: 8.2vw;
     height: 2.6vw;
-    margin-left: 12vw;
     -webkit-tap-highlight-color: #ffffff00;
+}
+
+.link-marca {
+    margin-left: 13.5vw;
 }
 
 .mobile-menu {

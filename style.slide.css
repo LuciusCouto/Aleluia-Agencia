@@ -65,10 +65,7 @@
 
 #prev {
     background-color: rgba(83, 83, 83, 0.596);
-    -webkit-tap-highlight-color: rgba(240, 248, 255, 0);
-    -webkit-user-select: none;  
-    -moz-user-select: none;     
-    -ms-user-select: none;      
+    -webkit-tap-highlight-color: rgba(240, 248, 255, 0);     
     user-select: none;  
     position: absolute;
     font-size: 3vw;
@@ -107,6 +104,8 @@
     margin: 0.3vw;
     transition: all 0.3s;
     cursor: pointer;
+    -webkit-tap-highlight-color: rgba(240, 248, 255, 0);     
+    user-select: none;  
 }
 
 .bub:hover {
