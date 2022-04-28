@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
  .ancora {
+     z-index: 1000;
      position: fixed;
      background-color: white;
-     box-shadow: 0vw 0vw 0vw 0vw 5vw #00000081;
+     box-shadow: 0.1vw 0.1vw #00000081;
      border-radius: 100%;
-     margin-top: 10vw;
      width: 5vw;
      height: 5vw;
-     margin-left: 91%;
-     margin-top: ;
+     margin-left: 93%;
+     top: 80%;
      -webkit-tap-highlight-color: rgba(240, 248, 255, 0);
-    -webkit-user-select: none;  
-    -moz-user-select: none;     
-    -ms-user-select: none;      
-    user-select: none;  
-    text-align: center;
+     -webkit-user-select: none;  
+     -moz-user-select: none;     
+     -ms-user-select: none;      
+     user-select: none;  
+     text-align: center;
  }
 
  .ancora > img {
