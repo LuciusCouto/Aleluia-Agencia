@@ -1,37 +1,20 @@
-class MobileNavbar {
-    constructor(mobileMenu, navList) {
-        this.mobileMenu = document.querySelector(mobileMenu);
-        this.navList = document.querySelector(navList);
-        this.activeClass = "active";
+nav_list = window.document.querySelector(".nav-list");
+mobile_menu = window.document.querySelector(".mobile-menu");
+activeBoolean = false;
 
-        this.handleClick = this.handleClick.bind(this);
-    }
-
-    handleClick() {
-        this.navList.classList.toggle(this.activeClass);
-        this.mobileMenu.classList.toggle(this.activeClass);
-    }
-
-    addClickEvent() {
-        this.mobileMenu.addEventListener("click", this.handleClick);
-    }
-
-    init() {
-        if (this.mobileMenu) {
-            this.addClickEvent();
-        }
-        return this;
-    }
+function active() {
+    if (activeBoolean == false) {
+        nav_list.classList.add("active");
+        mobile_menu.classList.add("active");
+        activeBoolean = true;
+    } else {
+        nav_list.classList.remove("active");
+        mobile_menu.classList.remove("active");
+        activeBoolean = false;
+    };
 }
 
-const mobileNavBar = new MobileNavbar (
-    ".mobile-menu",
-    ".nav-list",
-    ".nav-list li",
-);
-mobileNavBar.init();
-
-function closeMenu() {
-    this.mobileMenu.classList.remove("active");
-    this.navList.classList.remove("active");
-};
+function disable() {
+    nav_list.classList.remove("active");
+    mobile_menu.classList.remove("active");
+}

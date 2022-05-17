@@ -165,8 +165,8 @@ header {
     .nav-list {
         display: block;
         position: absolute;
-        top: 45px;
-        right: 0;
+        top: 3.5vw;
+        right: 8vw;
         width: 200px;
         max-height: 0;
         overflow-y: auto;
@@ -200,26 +200,13 @@ header {
 
 @media (max-width: 1000px) {
 
-    header {
-        height: 30px;
-    }
-
-    .marca_aleluia_agencia {
-        padding: 0;
-        width: 60px;
-        height: 20px;
-        margin-left: 12vw;
+    .nav-list {
+        right: 5vw;
     }   
 
     .mobile-menu {
         margin-right: 5vw;
         margin-top: 4px;
-    }
-
-    .mobile-menu div {
-        width: 20px;
-        height: 3px;
-        margin: 4px;
     }
 
     .mobile-menu.active .line1 {

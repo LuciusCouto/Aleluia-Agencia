@@ -237,6 +237,19 @@ div.video > iframe {
 }   
 
 @media (max-width: 870px) {
+
+    .quem-somos-ola {
+        margin-top: 6vw;
+        font-size: 6vw;
+        height: 25vw;
+    }
+
+    .quem-somos {
+        margin-top: 6vw;
+        font-size: 3vw;
+        height: 32vw;
+    }
+
     #Nossa_Equipe > .Wanderson {
         margin-left: 20vw;
         display: block;
