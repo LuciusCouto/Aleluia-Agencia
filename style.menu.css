@@ -165,7 +165,7 @@ header {
     .nav-list {
         display: block;
         position: absolute;
-        top: 3.5vw;
+        top: 44px;
         right: 8vw;
         width: 200px;
         max-height: 0;
@@ -198,64 +198,5 @@ header {
     }
 }
 
-@media (max-width: 1000px) {
 
-    .nav-list {
-        right: 5vw;
-    }   
-
-    .mobile-menu {
-        margin-right: 5vw;
-        margin-top: 4px;
-    }
-
-    .mobile-menu.active .line1 {
-        transform: rotate(-45deg) translate(-5px, 7px);
-    }
-    
-    .mobile-menu.active .line2 {
-        opacity: 0;
-    }
-    
-    .mobile-menu.active .line3 {
-        transform: rotate(45deg) translate(-3px, -5px);
-    }
-    
-}
-
-@media (max-width: 350px) {
-
-    header {
-        height: 30px;
-    }
-
-    .marca_aleluia_agencia {
-        width: 43px;
-        height: 15px;
-        margin-left: 12vw;
-    }   
-
-    .mobile-menu {
-        margin-right: 1vw;
-        margin-top: 4px;
-    }
-
-    .mobile-menu div {
-        width: 18px;
-        height: 2.2px;
-        margin: 4px;
-    }
-
-    .mobile-menu.active .line1 {
-        transform: rotate(-45deg) translate(-4px, 2px);
-    }
-    
-    .mobile-menu.active .line2 {
-        opacity: 0;
-    }
-    
-    .mobile-menu.active .line3 {
-        transform: rotate(45deg) translate(-6px, -4px);
-    }
-}
 
