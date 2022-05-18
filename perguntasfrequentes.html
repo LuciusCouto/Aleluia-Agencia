@@ -6,9 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perguntas Frequentes</title>
     <link rel="shortcut icon" href="imagens/Icones, marcas e logotipos/ìcone-do-site.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.menu.css">
 </head>
 <body>
+    <header id="menu"> <!--Cabeça do site-->
+
+        <a href="index.html" class="link-marca"><img class="marca_aleluia_agencia" src="imagens/Icones, marcas e logotipos/Logotipo.png" alt=""></a>   
+
+        <nav id="nav"> <!--Navegação-->
+
+            <div class="mobile-menu" onclick="active()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="#Quem_Somos" onclick="disable()">Quem Somos</a></li>
+                <li class="barra">|</li>
+                <li><a href="#Serviços" onclick="disable()">Serviços</a></li>
+                <li class="barra">|</li>
+                <li><a href="perguntasfrequentes.html" target="_self" onclick="disable()">Perguntas Frequentes</a></li>
+                <li class="barra">|</li> 
+                <li><a href="cursos.html" target="_self" onclick="disable()">Cursos</a></li>
+                <li class="barra">|</li>
+                <li><a href="#contate_nos" onclick="disable()">Contate-nos</a></li>
+            </ul>      
+        </nav>
+</header>
     <h1>Em desenvolvimento</h1>
     <h2><a href="index.html">Voltar</a></h2>
+
+    <script src="menuHeader.js"></script>
 </body>
 </html>
